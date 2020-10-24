@@ -1,0 +1,29 @@
+{
+    "presets": [
+      ["@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "@modules": "./src/modules",
+          "@core": "./src/core",
+          "@shared": "./src/shared",
+          "@infra": "./src/infra",
+          "@config": "./src/config",
+          "@models": "./src/models",
+          "@controllers": "./src/controllers"
+        }
+      }]
+    ],
+    "ignore": [
+      "**/*.spec.ts"
+    ]
+  }
