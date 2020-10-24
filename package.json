@@ -19,10 +19,12 @@
   ],
   "author": "Cleber Ribeiro <contato@cleberribeiro.com>",
   "license": "MIT License",
-  "dependencies": {
-    "@types/node": "^14.14.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@types/node": "^14.14.2",
     "typescript": "^4.0.3"
   }
 }
