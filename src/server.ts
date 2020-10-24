@@ -1,1 +1,3 @@
-console.log('Start server OK');
+export const myFunction = (): string => {
+    return 'Ambiente configurado OK';
+}
