@@ -1,3 +1,3 @@
 export const myFunction = (): string => {
-    return 'Ambiente configurado OK';
+    return 'Configured environment OK';
 }
