@@ -20,7 +20,7 @@
     "typescript"
   ],
   "author": "Cleber Ribeiro <contato@cleberribeiro.com>",
-  "license": "MIT License",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.12.1",
