@@ -5,6 +5,9 @@
   "repository": {
     "url": "https://github.com/cleberribeiro/skeleton-node.git"
   },
+  "engines": {
+    "node": "14.17.2"
+  },
   "main": "src/server.ts",
   "scripts": {
     "build": "./node_modules/.bin/babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
@@ -34,7 +37,7 @@
     "jest": "^26.6.1",
     "lint-staged": "^10.4.2",
     "ts-jest": "^26.4.2",
-    "ts-node-dev": "^1.0.0",
+    "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.0.3"
   }
